@@ -1,0 +1,34 @@
+```puml
+@startuml
+
+actor "用户" as user
+box 接入方 #efefef
+  participant "页面" as page
+  participant "API" as api
+endbox
+control "转换器" as transformer
+box 甘特图 SDK #efeffe
+  participant "甘特图组件" as component
+endbox
+
+== 查看 ==
+autonumber
+
+user -> page : 访问页面
+page -> api: 获取任务
+api --> page: 返回任务
+page -> transformer: 转换
+transformer -> component: 更新组件
+component --> user: 渲染
+
+== 修改 ==
+autonumber
+
+user -> component: 修改任务信息
+component --> transformer: 任务变更
+transformer --> page: 转换
+page -> api: 保存任务
+api --> page: 保存成功
+
+@enduml
+```
