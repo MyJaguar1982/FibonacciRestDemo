@@ -1,4 +1,5 @@
 # Fibonacci Restful Service1111
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c00862bb96894a13bd2295dcd8eeec53)](https://app.codacy.com/gh/MyJaguar1982/FibonacciRestDemo?utm_source=github.com&utm_medium=referral&utm_content=MyJaguar1982/FibonacciRestDemo&utm_campaign=Badge_Grade_Settings)
 [![CI](https://github.com/MyJaguar1982/FibonacciRestDemo/actions/workflows/main.yml/badge.svg)](https://github.com/MyJaguar1982/FibonacciRestDemo/actions/workflows/main.yml)
 Fibonacci restful service is designed to be high-scaliablity service to quickly calculate Fibonacci. 
 
