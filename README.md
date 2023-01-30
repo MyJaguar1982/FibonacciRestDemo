@@ -15,6 +15,9 @@ So, that gives me a idea that the calculation could be sperated into smaller job
 ##### Related codes:
  * [FibonacciCoreCalucaltion](https://github.com/iamtangram/FibonacciRest/blob/master/src/main/java/com/emc/test/fibonacci/FibonacciCoreCalucaltion.java)
 
+
+
+
 ### Infrastructure Design
 ```
              +-------------------------------------------------------+
