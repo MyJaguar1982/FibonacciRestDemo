@@ -1,0 +1,10 @@
+schemaVersion: 2.2.0
+attributes:
+  space:
+    instanceType: large
+    editor:
+      type: Idea
+components:
+- name: dev-container
+  container:
+    image: openjdk-11:latest
