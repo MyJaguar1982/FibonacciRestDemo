@@ -7,7 +7,7 @@
       <src_folder value="file://$MODULE_DIR$/src/main/resources" expected_position="1" />
       <src_folder value="file://$MODULE_DIR$/src/test/java" expected_position="2" />
     </src_description>
-  </component>
+  </component> 
   <component name="FacetManager">
     <facet type="web" name="Web">
       <configuration>
